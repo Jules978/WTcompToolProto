@@ -1,0 +1,86 @@
+body {
+    font-family: museo-sans,sans-serif;
+}
+
+footer {
+    background-color:#140f11;
+    padding: 1rem 0rem 1rem;
+}
+
+.card {
+    border-radius: 0 !important;
+}
+  .box-shadow {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+
+.mini-nav-item {
+    margin-right: 0.5rem;
+}
+
+.navbar-nav > .active > a {
+ color: #8ec63f !important;
+ font-weight: bold;
+ 
+}
+#profile-container {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    background: #eaeff2;
+}
+
+a, a:hover, a:active {
+    color: #8ec63f ;
+}
+
+#name-container {
+    width: 100%;
+}
+
+#graph-image {
+    width: 100%;
+}
+
+th {
+    font-size: 15px;
+    word-wrap: break-word;
+}
+
+#trainee-image {
+    height: 150px;
+    border-radius: 50%;
+}
+
+#graph-legend {
+    width: 100%;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.grey-text {
+    color: rgba(0,0,0,.5) !important;
+}
+
+.fixed-width-table-section {
+    
+    min-width: 150px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #8ec63f !important;
+}
+
+.nav-tabs .nav-link {
+    color: rgba(0,0,0,.5) !important;
+}
+@media (min-width: 1200px){
+    .container {
+        max-width: 1440px;
+    }
+
+}

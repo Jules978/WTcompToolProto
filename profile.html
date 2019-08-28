@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Boottrap, fontawesome, custom css, icon-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="competence.css">
+    <link rel="icon" href="WT_simplified.ico">
+
+    <!-- jQuery, Popper.js, JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <title>Trainee profiel</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bold-text" style="background-color:#140f11;">
+        <a class="navbar-brand" href="#" style="color: #8ec63f">
+            <img src="WT_simplified.png" alt="Logo WT" height="30" class="d-inline-block align-top" alt="">
+            CompetenceTool
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Traineeships
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Java</a>
+                        <a class="dropdown-item" href="#">C#</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Big Data</a>
+                    </div>
+                </li>
+            </ul>
+            <span class="navbar-text">
+                Welkom, <a href="#" style="color: #8ec63f">naam</a>
+            </span>
+        </div>
+    </nav>
+
+    <div class="container" id="profile-container">
+
+        <nav class="navbar navbar-light bold-text" style="background-color:inherit">
+
+            <ul class="nav navbar-nav flex-row">
+                <li class="nav-item active mini-nav-item"><a class="nav-link" href="">Profiel</a></li>
+                <li class="nav-item nav-link disabled mini-nav-item">/</li>
+                <li class="nav-item mini-nav-item"><a class="nav-link" href="">vragenlijst</a></li>
+                <li class="nav-item nav-link disabled mini-nav-item">/</li>
+                <li class="nav-item mini-nav-item"><a class="nav-link" href="">uitleg</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="container-fluid box-shadow" id="name-container">
+            <div class="row">
+                <div class="col-lg-2" style="padding: 0.5rem 2rem 0.5rem 1rem">
+                    <img src="trainee_img.png" id="trainee-image" alt="...">
+                </div>
+                <div class="col-lg-10" style="padding: 0.5rem 2rem 0.5rem 1rem">
+                    <h1> Voornaam Achternaam</h1>
+                    <h5 class="text-muted">Java 2018</h5>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row" style="margin-top: 1rem">
+            <div class="col-lg-6">
+                <div class="container-fluid box-shadow">
+                    <div class="row justify-content-start" style="padding:0.5rem 0rem 0.5rem; overflow-x: scroll">
+                        <div class="col-2">
+                            <img src="oracle_certification_badge_oc_associate.jpg" alt="certificate" height="75" alt="">
+                        </div>
+                        <div class="col-2">
+                            <img src="scrum_master.png" alt="certificate" height="75" alt="">
+                        </div>
+                        <div class="col-2">
+                            <img src="oracle_certification_badge_oc_associate.jpg" alt="certificate" height="75" alt="">
+                        </div>
+                        <div class="col-2">
+                            <img src="scrum_master.png" alt="certificate" height="75" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <h5 class="bold-text" style="margin-top: 0.5rem">Competenties</h5>
+                <div class="container-fluid box-shadow" style="margin-top: 0.5rem">
+                    <div class="card" style="margin: 0px; width: 100%; border: 0px">
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <img src="graph.png" id="graph-image" alt="...">
+                                </div>
+                                <div class="col-lg-4">
+                                    <ul class="list-group list-group-flush " style="font-size: small">
+                                        <li class="list-group-item">Skill 1: value explanation
+                                            <p class="text-muted">2/4 answered</p>
+                                        </li>
+                                        <li class="list-group-item">Skill 2: value explanation
+                                            <p class="text" style="color: rgb(48, 163, 48)">4/4 answered</p>
+                                        </li>
+                                        <li class="list-group-item">Skill 3: value explanation
+                                            <p class="text" style="color: orange">2/4 answered</p>
+                                        </li>
+                                        <li class="list-group-item">Skill 4: value explanation
+                                            <p class="text" style="color: rgb(168, 53, 53)">1/4 answered</p>
+                                        </li>
+                                        <li class="list-group-item">Skill 5: value explanation
+                                            <p class="text" style="color: orange">2/4 answered</p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h5 class="bold-text">Overzicht</h5>
+                <div class="container box-shadow" style="padding-top: 0.5rem">
+
+                    <ul class="nav nav-tabs bold-text" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">Matrix</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">Tabel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                aria-controls="contact" aria-selected="false">Eigen
+                                antwoorden</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="row">
+                                <div class="col-lg-9" style="padding: 0px">
+                                    <img src="matrix.png" alt="matrix" width="100%" alt="">
+                                </div>
+                                <div class="col-lg-3" style="padding: 0px; overflow-y: scroll">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item"><input type="checkbox" name="vehicle1" value="Bike">
+                                            Trainee</li>
+                                        <li class="list-group-item"><input type="checkbox" name="vehicle1" value="Bike"
+                                                checked> Jan De Vries</li>
+                                        <li class="list-group-item"> <input type="checkbox" name="vehicle1" value="Bike"
+                                                checked> Patricia Vaatstra</li>
+                                        <li class="list-group-item"> <input type="checkbox" name="vehicle1" value="Bike"
+                                                checked> Thijs Nauta</li>
+                                        <li class="list-group-item"> <input type="checkbox" name="vehicle1" value="Bike"
+                                                checked> Alina Wachter</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"
+                            style="overflow: scroll">
+
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col"></th>
+                                        <th scope="col">initiatief</th>
+                                        <th scope="col">flexibiliteit</th>
+                                        <th scope="col">Ambitie</th>
+                                        <th scope="col">Doorzettings- vermogen</th>
+                                        <th scope="col">Leerbereidheid</th>
+                                        <th scope="col">Oprecht</th>
+                                        <th scope="col">Samenwerking</th>
+                                        <th scope="col">Assertiviteit</th>
+                                        <th scope="col">Plannen</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th class="fixed-width-table-section" scope="row">Gemiddelde</th>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="fixed-width-table-section" scope="row">st. Dev.</th>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="fixed-width-table-section" scope="row">
+                                            <p class="mb-1">Eigen inschatting</p>
+                                            <small class="text-muted">Trainee</small>
+                                        </th>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="fixed-width-table-section" scope="row">
+                                            <p class="mb-1">Jan de Vries</p>
+                                            <small class="text-muted">Trainer</small>
+                                        </th>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="fixed-width-table-section" scope="row">
+                                            <p class="mb-1">Patricia Vaatstra</p>
+                                            <small class="text-muted">Recruiter</small>
+                                        </th>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="fixed-width-table-section" scope="row">
+                                            <p class="mb-1">Thijs Nauta</p>
+                                            <small class="text-muted">Trainer</small>
+                                        </th>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="fixed-width-table-section" scope="row">
+                                            <p class="mb-1">Alina Wachter</p>
+                                            <small class="text-muted">Recruiter</small>
+                                        </th>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <footer class="text-muted text-center text-small" style="margin-bottom: 0rem !important">
+        <p class="mb-1"> <span style="color:#8ec63f"> ©</span> 2019 <a href="#" style="color: inherit">WorkingTalent</a>
+        </p>
+        <ul class="list-inline" style="margin-bottom: 0px">
+            <li class="list-inline-item"> <a href="#" style="color: inherit">Privacy</a></li>
+            <li class="list-inline-item"> <a href="#" style="color: inherit">Support</a></li>
+        </ul>
+
+    </footer>
+</body>
+
+</html>
